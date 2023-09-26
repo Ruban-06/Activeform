@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>My project 4</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page_container">
+      <div class="header">
+        <h1>Learn to code by watching others</h1>
+
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="forms_container">
+        <button class="btn_action">
+          <span
+            ><strong>Try it free 7 days</strong> then $20/mo. thereafter</span
+          >
+        </button>
+        <form id="form" novalidate>
+          <input
+            id="firstName"
+            placeholder="First Name"
+            title="Input your First name"
+            required
+          />
+          <div class="form_error"><em>First Name cannot be empty</em></div>
+          <input
+            id="lastName"
+            placeholder="Last Name"
+            title="Input your Last name"
+            required
+          />
+          <div class="form_error"><em>Last Name cannot be empty</em></div>
+          <input
+            id="email"
+            placeholder="Email Address"
+            title="Input your email"
+            required
+          />
+          <div class="form_error"><em>Looks like this is not an email</em></div>
+          <input
+            id="password"
+            placeholder="Password"
+            title="Input any password"
+            required
+          />
+          <div class="form_error"><em>Password cannot be empty</em></div>
+          <input
+            id="formSubmit"
+            class="btn_submit"
+            value="Claim your free trial"
+          />
+          <p>
+            By clicking the button, you are agreeing to our
+            <a>Terms and Services</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
